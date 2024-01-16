@@ -1,0 +1,246 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(./Image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+/* Header section CSS starts here  */
+
+#HeaderSection {
+    color: white;
+    width: 100%;
+    margin-top: -7px;
+
+}
+#HeaderSection h1 {
+    font-size: 17px;
+    margin: 17px 0px 0px 15px;
+    display: inline-block;
+    width: 30%;
+}
+#HeaderSection h1 span{
+    font-weight: 100;
+}
+#HeaderSection ul{
+    display: inline-block;
+    width: 66%;
+    position: absolute;
+    right: -640px;
+}
+#HeaderSection ul li{
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 17px;
+    margin-left: 7px;
+}
+#SignUp{
+    border: 2px solid #d4cecb  ;
+    border-radius: 6px;
+}
+/* Header section ends here  */
+
+/* Body section css starts here */
+#BodySection{
+    text-align: center;
+    color: white;
+    margin-top: 125px;
+}
+#BodySection h1{
+    font-size: 58px;
+    font-weight: 100%;
+}
+#BodySection p{
+    font-size: 22px;
+    margin-top: -16px;
+}
+#BodySection ul{
+    display: inline-block;
+}
+#BodySection ul li{
+    display: inline-block;
+    border: 2px solid  #afabac;
+    border-radius: 6px ;
+    padding: 10px 55px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+#SignupButton{
+    background-color: white;
+    color: #b5a59c;
+    border: 2px solid white !important;
+    padding: 10px 70px !important;
+    width: 50px;
+    margin-left: 575px;
+
+}
+/* Body section css ends here */
+
+/* Description section css starts here  */
+#DescriptionSection{
+    width: 70%;
+    background-color: white;
+    text-align: center;
+    margin: 0  auto;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+#DescriptionSection h1{
+    padding-top: 75px;
+    font-size: 35px;
+    color: #646773;
+    font-weight: 900;
+}
+#DescriptionSection img{
+    width: 100%;
+    margin-top: 55px;
+    border-radius: 0px 0px 10px 10px;
+}
+#DescriptionSection p{
+    border-top: 1px solid #e5e5e5 ;
+    display: inline-block;
+    font-size: 21px;
+    padding-top: 45px;
+}
+/* Description section css ends here  */
+
+/* IconSection css starts here */
+#IconSection{
+    width: 70%;
+    background-color: white;
+    text-align: center;
+    margin: 0  auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    color: #787878;
+}
+#IconSection div{
+ display: inline-block;
+ padding: 50px;
+}
+#IconSection h1{
+    font-size: 30px;
+    font-weight: 100;
+}
+#IconSection div p{
+    font-size: 16px;
+    font-weight: 100;
+}
+.fa.fa-bolt{
+    border-radius: 100%;
+    background-color: #e89980;
+    color: white;
+    padding: 22px 35px;
+    font-size: 60px;
+}
+.fa.fa-area-chart{
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    padding: 35px 32px;
+    color: white;
+    font-size: 40px;
+}
+.fa.fa-cloud{
+    border-radius: 100%;
+    background-color: #90b0ba;
+    padding: 27px 30px;
+    color: white;
+    font-size: 50px;
+    
+}
+.fa.fa-lock{
+    border-radius: 100%;
+    background-color: #e5cb95;
+    padding: 20px 30px;
+    color: white;
+    font-size: 60px;
+}
+/* IconSection css ends here */
+
+/* ImageSection css Starts here */
+#ImageSection{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#ImageSection div{
+    width: 48%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    color: #787878;
+
+}
+#ImageSection div img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+#ImageSection div h1{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 55px 0px 25px 0px;
+}
+#ImageSection div p{
+    font-size: 20px;
+    font-weight: 100;
+}
+#ImageSection div button{
+    background-color: white;
+    border: 2px solid #e6e6e6;
+    border-radius: 6px;
+    color: #787878;
+    font-size: 16px;
+    margin: 25px 0px 60px 0px;
+    padding: 17px 40px;
+}
+
+
+/* ImageSection css Starts here */
+
+/* Footer section css starts here  */
+#FooterSection{
+    text-align: center;
+    margin-top: 90px;
+}
+#DivFoot1 {
+    background-color: #e89980;
+    height: 300px;
+    color: #ebebeb;
+    padding-bottom: 50px;
+}
+#DivFoot1 h1{
+    padding-top: 60px;
+    font-size: 34px;
+    font-weight: 900;
+}
+#DivFoot1 p{
+    font-size: 17px;
+    margin: 34px 0px 40px 0px;
+}
+#DivFoot1 input{
+    width: 279px;
+    height: 50px;
+    border: none;
+    background-color:#eba893;
+    padding: 0px 0px 0px 20px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-right: 17px;
+}
+#DivFoot1 input ::placeholder{
+    color: white;
+}
+#DivFoot1 button{
+    height: 50px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    color: #ec9980;
+    font-size: 17px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* Footer section css ends here  */
